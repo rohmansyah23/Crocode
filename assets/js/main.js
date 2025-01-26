@@ -104,19 +104,19 @@
   /**
  * Frequently Asked Questions Toggle
  */
-document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle').forEach((faqItem) => {
-  faqItem.addEventListener('click', () => {
-    const parent = faqItem.parentNode;
-    parent.classList.toggle('faq-active');
+  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle').forEach((faqItem) => {
+    faqItem.addEventListener('click', () => {
+      const parent = faqItem.parentNode;
+      parent.classList.toggle('faq-active');
 
-    // Menutup FAQ lainnya saat satu dibuka (opsional)
-    document.querySelectorAll('.faq-item').forEach((item) => {
-      if (item !== parent) {
-        item.classList.remove('faq-active');
-      }
+      // Menutup FAQ lainnya saat satu dibuka (opsional)
+      document.querySelectorAll('.faq-item').forEach((item) => {
+        if (item !== parent) {
+          item.classList.remove('faq-active');
+        }
+      });
     });
   });
-});
 
 
   /**

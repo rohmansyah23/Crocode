@@ -1787,17 +1787,17 @@ section,
 /*--------------------------------------------------------------
 # Recent Posts Section
 --------------------------------------------------------------*/
-.recent-posts .post-item {
+.sourcecodenews .post-item {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
 }
 
-.recent-posts .post-item .post-img img {
+.sourcecodenews .post-item .post-img img {
   transition: 0.5s;
 }
 
-.recent-posts .post-item .post-date {
+.sourcecodenews .post-item .post-date {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1809,11 +1809,11 @@ section,
   font-weight: 500;
 }
 
-.recent-posts .post-item .post-content {
+.sourcecodenews .post-item .post-content {
   padding: 30px;
 }
 
-.recent-posts .post-item .post-title {
+.sourcecodenews .post-item .post-title {
   color: var(--heading-color);
   font-size: 20px;
   font-weight: 700;
@@ -1821,22 +1821,22 @@ section,
   margin-bottom: 15px;
 }
 
-.recent-posts .post-item .meta i {
+.sourcecodenews .post-item .meta i {
   font-size: 16px;
   color: var(--accent-color);
 }
 
-.recent-posts .post-item .meta span {
+.sourcecodenews .post-item .meta span {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
-.recent-posts .post-item hr {
+.sourcecodenews .post-item hr {
   color: color-mix(in srgb, var(--default-color), transparent 80%);
   margin: 20px 0;
 }
 
-.recent-posts .post-item .readmore {
+.sourcecodenews .post-item .readmore {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1845,18 +1845,18 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.recent-posts .post-item .readmore i {
+.sourcecodenews .post-item .readmore i {
   line-height: 0;
   margin-left: 6px;
   font-size: 16px;
 }
 
-.recent-posts .post-item:hover .post-title,
-.recent-posts .post-item:hover .readmore {
+.sourcecodenews .post-item:hover .post-title,
+.sourcecodenews .post-item:hover .readmore {
   color: var(--accent-color);
 }
 
-.recent-posts .post-item:hover .post-img img {
+.sourcecodenews .post-item:hover .post-img img {
   transform: scale(1.1);
 }
 
@@ -2696,36 +2696,36 @@ section,
   font-size: 14px;
 }
 
-.recent-posts-widget .post-item {
+.sourcecodenews-widget .post-item {
   display: flex;
   margin-bottom: 15px;
 }
 
-.recent-posts-widget .post-item:last-child {
+.sourcecodenews-widget .post-item:last-child {
   margin-bottom: 0;
 }
 
-.recent-posts-widget .post-item img {
+.sourcecodenews-widget .post-item img {
   width: 80px;
   margin-right: 15px;
 }
 
-.recent-posts-widget .post-item h4 {
+.sourcecodenews-widget .post-item h4 {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.recent-posts-widget .post-item h4 a {
+.sourcecodenews-widget .post-item h4 a {
   color: var(--default-color);
   transition: 0.3s;
 }
 
-.recent-posts-widget .post-item h4 a:hover {
+.sourcecodenews-widget .post-item h4 a:hover {
   color: var(--accent-color);
 }
 
-.recent-posts-widget .post-item time {
+.sourcecodenews-widget .post-item time {
   display: block;
   font-style: italic;
   font-size: 14px;

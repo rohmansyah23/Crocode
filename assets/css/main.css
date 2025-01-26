@@ -145,7 +145,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #ffffff00;
   padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -202,6 +202,7 @@ h6 {
 }
 
 .scrolled .header {
+  background-color: #fff;!;!i;!im;!imp;!impo;!imp;!im;!i;!;
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
@@ -838,7 +839,7 @@ section,
   padding: 80px 0 60px 0;
   display: flex;
   align-items: center;
-  background: url(../img/hero-bg.png) top center no-repeat;
+  background: url(../svg/bg-hero.svg) top center no-repeat;
   background-size: cover;
 }
 
